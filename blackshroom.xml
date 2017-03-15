@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="cph" fetch="https://gitlab.com/copperhead/" />
+<remote name="cos" fetch="git://github.com/copperheados/" />
+<remote  name="aospa" fetch="git://github.com/AOSPA/" />
+
+
+<project path="external/chromium" name="platform_external_chromium" remote="cph" revision="refs/heads/nougat-mr1.1-release"  />
+
+<project path="external/Silence" name="platform_external_Silence" remote="cos" revision="nougat-mr1.1-release"/>
+
+<project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="aospa" revision="nougat-mr1"/>
+
+<project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="aospa" revision="nougat-mr1"/>
+
+<project name="platform/packages/apps/SnapdragonLauncher" path="packages/apps/SnapdragonLauncher" remote="aospa" revision="nougat-mr1"/>
+
+<project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="aospa" revision="nougat-mr1"/>
+
+</manifest>
